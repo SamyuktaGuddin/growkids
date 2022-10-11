@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+{%load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="{% static 'css/profile.css' %}">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!--Main Start-->
+
+
+  <div class="container">
+    <div class="title">Create Your Profile Account</div>
+    <div class="content">
+      <form action="" method="post">
+       {% csrf_token %}
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" placeholder="Enter your First Name" name="t1" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Last Name</span>
+            <input type="text" placeholder="Enter your Last Name" name="t2" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Date of Birth</span>
+            <input type="text" placeholder="Enter your Date of Birth" name="t3" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Age</span>
+            <input type="text" placeholder="Enter your Age" name="t4" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Parent/Guardian Name</span>
+            <input type="text" placeholder="Enter your Parent/Guardian Name" name="t5" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Parent/Guardian Phone Number</span>
+            <input type="text" placeholder="Enter your number" name="t6" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" placeholder="Enter your Address" name="t7" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your Email" name="t8" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Category</span>
+            <input type="text" placeholder="Enter your Category" name="t9" required>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Submit" style="color: #fff;text-decoration: none;" value="submit">
+        </div>
+       <!---- <div class="button">
+            <a href="pay.html" input type="submit" value="submit" style="color: #fff;">Register </a>
+              <button class="button" ><a href="bsp.html" input type="submit" value="Register"style="color: #fff;">Register </a></button> 
+          </div> -->
+      </form>
+    </div>
+  </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Luckiest+Guy&family=Montserrat:wght@700&family=Nosifer&family=Oswald:wght@400;600&family=Roboto:wght@100;300&family=Rubik+Glitch&display=swap');
+body{
+   margin: 0;
+}
+*{
+    box-sizing: border-box;
+
+}
+.main{
+    margin: 0;
+    justify-content: center;
+    height: 45rem;
+    background-color: orange; /* For browsers that do not support gradients */
+    background-image: linear-gradient(170deg,#ff7200 0%, orange 60%, black 60.1%);
+
+}
+.rightimage{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    float: right;
+    margin: 2% 10px 0px 0px;
+}
+.rightimage img{
+    margin-left: 15%;
+
+
+}
+
+.centertext{
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    display:flex;
+    float: center ;
+    margin: 10% 0px 0px 15%;
+    text-align: center;
+    overflow: hidden;
+}
+.lefttext{
+    width: 40%;
+    height: 70%;
+    justify-content: center;
+    display:flex;
+    float: left ;   
+    margin: 2% 0px 0px 5%;
+    text-align: center;
+    overflow: hidden;
+}
+.lefttext .textwrap{
+    margin: 25% 10px 0px 0px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.centertext .textwrap{
+    margin: 25% 10px 0px 0px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.lefttext  table{
+    width: 100%;
+    overflow-wrap: break-word;
+    font-size: 50px;
+    font-family: 'Nosifer', cursive;
+    padding: 0;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: 0 ;
+}
+
+.centertext .textwrap tr{
+    width: 100%;
+    overflow-wrap: break-word;
+    font-size: 50px;
+    font-family: 'Nosifer', cursive;
+    padding: 0;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: 0 ;
+}
+.centertext .textwrap td{
+    width: 100%;
+    overflow-wrap: break-word;
+    font-size: 50px;
+    font-family: 'Nosifer', cursive;
+    padding: 0;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: 0 ;
+}
+
+.lefttext .textwrap h1{
+    width: 100%;
+    overflow-wrap: break-word;
+    font-size: 50px;
+    font-family: 'Nosifer', cursive;
+    padding: 0;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: 0 ;
+}
+.lefttext .textwrap p{
+    font-size: 20px;
+    font-family: 'Oswald', cursive;
+    padding: 0;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+}
+.lefttext .textwrap button{
+    font-size: 30px;
+    margin-top: 10px;
+
+    border: 0;
+    border-radius: 5px;
+    background-color: skyblue;
+    font-family: 'Oswald', cursive;
+    justify-content: center;
+    text-align: center;
+}
+.lefttext .textwrap button:hover{
+    color: rgb(255, 12, 126);
+    background-color: #F7DBF0;
+    border: 2px solid black;
+}
+#navicon{
+    margin-left: 20px;
+    font-size: 27px;
+}
+.aboutus .leftaboutus{
+    text-align: center;
+    float: left;
+}
+
+@media screen and (max-width: 600px) {
+    .lefttext{
+
+        padding: 0;
+        display: flex;
+        width: 100%;
+        margin-top: -10%;
+    }
+    .rightimage{
+        display: flex;
+        width: 100%;
+        margin-top: 0;
+    }
+}
+footer {
+    background-color: white;
+}
+
+footer h5{
+    color: #1d1a1a;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+footer li{
+    padding-bottom: 8px;
+}
+
+footer li a{
+    font-size: 0.8rem;
+    color: rgb(46, 42, 42);
+}
+
+footer li a:hover{
+    color: #161111;
+}
+
+footer p{
+    color: rgb(94, 89, 89);
+    font-size: 00.8rem;
+}
+
+footer .copyright a{
+    color: #000;
+    width: 38px;
+    height: 38px;
+   background-color: #000;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;border-radius: 50%;
+    transition: 0.3s ease;
+    margin: 0 9px;
+}
+
+footer .copyright a:hover{
+    columns: #000;
+    background-color: #000;
+}
+
+.copyright a .fab{
+    color: #fff;
+    margin: 10px 0 0 0;
+}

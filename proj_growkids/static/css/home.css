@@ -1,0 +1,184 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    transition: all 0.4s ease;
+    
+  }
+  nav.sticky{
+    padding: 15px 20px;
+    background:   #ff7200;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  nav .nav-content{
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo1{
+      background-image: url(images/ll.png);
+  }
+  nav .logo a{
+      margin-left:300ppx;
+    font-weight: 500;
+    font-size: 35px;
+    color: #ff7200;
+  }
+  nav.sticky .logo a{
+    color: #fff;
+    margin: 20px;
+  }
+  .nav-content .nav-links{
+      
+      margin: -200px;
+      font-size: larger;
+      font-style: 'Times new roman';
+    display: flex;
+  }
+  .nav-content .nav-links li{
+    list-style: none;
+    margin: 0 8px;
+  
+  }
+   .nav-links li a{
+     
+    text-decoration: none;
+    color:#111;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 4px;
+    transition: all 0.3s ease;
+  }
+   .nav-links li a:hover{
+     color:#ff7200;
+   }
+   nav.sticky .nav-links li a{
+     color:#ff7200;
+     transition: all 0.4s ease;
+  }
+   nav.sticky .nav-links li a:hover{
+    color: #ff7200;
+  }
+  .main{
+      width:100%;
+      margin: auto;
+      background: linear-gradient(to top,rgba(0,0,0,0.5)50,rgba(0,0,0,0.5)50%);
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJayz2u68vVHHdX8DXagCWJgGjxyZu4Rcgmw&usqp=CAU);
+      background-color: rgb(176, 176, 236);
+      background-size:cover;
+      background-position: center;
+      height: 109vh;
+  }
+  .home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/bak.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  h2{
+    font-size: 30px;
+    margin-bottom: 6px;
+    color:#ff7200;
+  }
+  .text{
+    text-align: justify;
+    padding: 40px 80px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+  }
+  footer{  
+      display:flex;  
+      flex-direction: column;  
+     background-color: black; 
+     background-position:fixed; 
+      
+      color:white;  
+    }  
+    .footer1{  
+      display:flex;  
+    flex-direction: column;  
+    align-items: center;  
+    color:white;  
+    margin-top:15px;  
+    }  
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    /* Navigation links */
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* The subnavigation menu */
+    .subnav {
+      float: left;
+      overflow: hidden;
+    }
+    
+    /* Subnav button */
+    .subnav .subnavbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    /* Add a red background color to navigation links on hover */
+    .navbar a:hover, .subnav:hover .subnavbtn {
+      background-color: red;
+    }
+    
+    /* Style the subnav content - positioned absolute */
+    .subnav-content {
+      display: none;
+      position: absolute;
+      left: 0;
+      background-color: red;
+      width: 100%;
+      z-index: 1;
+    }
+    
+    /* Style the subnav links */
+    .subnav-content a {
+      float: left;
+      color: white;
+      text-decoration: none;
+    }
+    
+    /* Add a grey background color on hover */
+    .subnav-content a:hover {
+      background-color: #eee;
+      color: black;
+    }
+    
+    /* When you move the mouse over the subnav container, open the subnav content */
+    .subnav:hover .subnav-content {
+      display: block;
+    }
+    

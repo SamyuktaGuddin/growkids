@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{%load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pricing Table</title>
+        <link rel="stylesheet" href="{% static 'css/bsp.css' %}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="single-price">
+                <h1>Basic</h1>
+                <div class="price">
+                    <h2>₹499</h2>
+                </div>
+                <div class="deals">
+                    <h4>Dance</h4>
+                    <h4>Drawing</h4>
+                    <h4>Abacus</h4>
+                    <h4>Karrate</h4>
+                    <h4>Yoga</h4>
+                    <h4>Music</h4>
+                </div>
+                <a href="{% url 'makepay' %}">Select</a>
+            </div>
+            <div class="single-price">
+                <h1>Standard</h1>
+                <div class="price">
+                    <h2>₹699</h2>
+                </div>
+                <div class="deals">
+                    <h4>Dance</h4>
+                    <h4>Drawing</h4>
+                    <h4>Abacus</h4>
+                    <h4>Karrate</h4>
+                    <h4>Yoga</h4>
+                    <h4>Music</h4>
+                </div>
+                <a href="{% url 'makepay' %}">select</a>
+            </div>
+            <div class="single-price">
+                <h1>Premium</h1>
+                <div class="price">
+                    <h2>₹999</h2>
+                </div>
+                <div class="deals">
+                    <h4>Dance</h4>
+                    <h4>Drawing</h4>
+                    <h4>Abacus</h4>
+                    <h4>Karrate</h4>
+                    <h4>Yoga</h4>
+                    <h4>Music</h4>
+                </div>
+                <a href="{% url 'makepay' %}">select</a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+{%load static %}
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+   
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+   </head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a class="logo" >GrOwKiDs</a>
+      </div>
+      <ul class="nav-links">
+            <li><a href="#" style="font-size:20px">Home</a></li>
+            <li><a href="about.html" style="font-size:20px">About</a></li>
+            <li><a href="expl.html" style="font-size:20px">Explore Activity</a></li>
+            <li><a href="reg.html" style="font-size:20px">Become A Trainer</a></li>
+            <li><a href="contact.html" style="font-size:20px">Contact</a></li>
+            <button class="custom-btn btn-7"><a href="log.html"><span>login</span></button></a>
+          </ul>
+        </div>
+      </ul>
+    </div>
+  </nav>
+  <section class="home"></section>
+  <div class="text">
+    <p><h2>About</h2>
+        <p class="p2"> 
+            <br>
+            <br>
+        </p>
+        <p class="p1">
+            GrOwKiDs is a co-curricular activites oriented platform for a child to learn and Explore Activites and to build self-confidence in them.
+           <br> This GrOwKiDs is a blog where we post blogs related to Dance,Drawing,Music,Yoga,Karatte,Abbacus.
+            <br>We provide blogs from well Qualified trainers with there Specilizations.   
+            <br>
+            <br>
+          <p class="p1"> I hoope my Contents are helpful for you and you will learn something new from them. 
+            <br>Thank you for taking the time to read this.</p>
+            <br>
+            <p class="p1">If you have any quries, Please do not hesitate to tell us through the <a href="contact.html" style="text-decoration:none;">contact page</a></p>
+        </p>
+    <br><p></div>
+
+  <script>
+  let nav = document.querySelector("nav");
+    window.onscroll = function() {
+      if(document.documentElement.scrollTop > 20){
+        nav.classList.add("sticky");
+      }else {
+        nav.classList.remove("sticky");
+      }
+    }
+  </script>
+  <footer>
+    <div class="footer0">
+      <h1></h1>
+    </div>
+    <div class="footer1 ">
+      <div class="footer2">
+        <div class="product">
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="p1">copyright @GrOwKiDs &ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp; phone
+            num:12345678901&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;email:abc@gmail.com&ensp;&ensp;&ensp;&ensp;
+            &ensp;&ensp;&ensp;contact</div>
+          <br>
+
+        </div>
+
+      </div>
+      <div class="footer3">
+        <h4></h4>
+      </div>
+  </footer>
+</body>
+</html>
